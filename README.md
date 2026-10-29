@@ -7,3 +7,7 @@
 ```bash
 docker build -t nginx-site:latest .
 
+## Проверка ошибки 404
+
+Откройте `/nonexistent-page`. Должна отобразиться кастомная страница с ФИО автора.
+
